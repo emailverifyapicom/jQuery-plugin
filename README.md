@@ -3,22 +3,15 @@ jQuery-plugin
 
 jQuery plugin for email address verification.
 
-## About
- * A plug-in for WordPress contact form 7.
- * A general jQuery plugin.
-
-## Usage
-When you edit a Contact Form 7 form, there is a new "Email Checker" field. 
-You can add as many of these fields as you need, and when you add each one, 
-you can configure various options in the form editor.
-
 ## jQuery Plugin 
 A generic jQuery library has been constructed to use RESTful email verification services hosted at api.emailverifyapi.com.
 
+## Pre-requisites
+A license for domain authentication is required from [api.emailverifyapi.com](https://api.emailverifyapi.com).
+
 ### Basic Usage
 
-```
-#!html
+```html
 <!-- if you haven't already, make sure you include jquery, locally or from Google's servers -->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
@@ -43,8 +36,7 @@ By default the email field will be verified on blue (when it loses focus) and wh
 ### Advanced Usage
 Every part of the plugin's functionality configurable in the easiest way possible. Here are some examples of what you can do. The fill list of options are in the next section.
 
-```
-#!html
+```html
 <script type="text/javascript">
         $(document).ready(function()
         {
@@ -73,5 +65,4 @@ Every part of the plugin's functionality configurable in the easiest way possibl
             });
         });
 </script>
-
 ```
