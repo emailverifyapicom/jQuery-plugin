@@ -1,0 +1,21 @@
+.emailChecker_results {
+    display: none;height: 20 px;position: absolute;padding: 10 px 20 px 7 px 20 px;color: #fff;background: #999;z-index:100}.emailChecker_results.emailChecker_top{bottom:40px;left:0}.emailChecker_results.emailChecker_bottom{top:40px;left:0}.emailChecker_results.emailChecker_left{left:40px;top:0}.emailChecker_results.emailChecker_right{right:40px;top:0}.emailChecker_invalid{background:# bb2525
+}.emailChecker_valid {
+    background: #393}.emailChecker_results:after{border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-width:10px}.emailChecker_results.emailChecker_top:after{top:100%;left:50%;border-top-color:# 999;margin - left: -10 px
+}.emailChecker_results.emailChecker_bottom: after {
+    bottom: 100 % ;left: 50 % ;border - bottom - color: #999;margin-left:-10px}.emailChecker_results.emailChecker_left:after{top:50%;left:100%;border-left-color:# 999;margin - top: -10 px
+}.emailChecker_results.emailChecker_right: after {
+    top: 50 % ;right: 100 % ;border - right - color: #999;margin-top:-10px}.emailChecker_results.emailChecker_invalid.emailChecker_top:after{border-top-color:# bb2525
+}.emailChecker_results.emailChecker_invalid.emailChecker_bottom: after {
+    border - bottom - color: #bb2525
+}.emailChecker_results.emailChecker_invalid.emailChecker_left: after {
+    border - left - color: #bb2525
+}.emailChecker_results.emailChecker_invalid.emailChecker_right: after {
+    border - right - color: #bb2525
+}.emailChecker_results.emailChecker_valid.emailChecker_top: after {
+    border - top - color: #393}.emailChecker_results.emailChecker_valid.emailChecker_bottom:after{border-bottom-color:# 393
+}.emailChecker_results.emailChecker_valid.emailChecker_left: after {
+    border - left - color: #393}.emailChecker_results.emailChecker_valid.emailChecker_right:after{border-right-color:# 393
+}.emailChecker_results strong {
+    color: white
+}
