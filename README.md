@@ -1,13 +1,12 @@
-jQuery-plugin
-=============
+Email Verification jQuery-plugin
+================================
 
-jQuery plugin for email address verification.
-
-## jQuery Plugin 
-A generic jQuery library has been constructed to use RESTful email verification services hosted at api.emailverifyapi.com.
+# About
+jQuery Plugin is a generic jQuery library has been constructed to use RESTful email verification services hosted at [api.emailverifyapi.com][2].
 
 ## Pre-requisites
-A license for domain authentication is required from [api.emailverifyapi.com](https://api.emailverifyapi.com).
+A license for domain authentication is required.
+[Click here to request a license][1]
 
 ## Installation
 The minified version of javascript is available at:
@@ -42,12 +41,13 @@ The minified version of CSS is available at:
 	});
 </script>
 ```
-By default the email field will be verified on blue (when it loses focus) and when it's form is submitted. The verification results will appear to the right of the field by default and will use our default styling.
+By default the email field will be verified on blur (when it loses focus) and when it's form is submitted. The verification results will appear to the right of the field by default and will use our default styling.
 
 **Note:** A valid domain ACL / license is required in emailverifyapi.com for client side script to work.
+[Click here to request a license][1].
 
 ### Advanced Usage
-Every part of the plugin's functionality configurable in the easiest way possible. Here are some examples of what you can do. The fill list of options are in the next section.
+Every part of the plugin's functionality configurable in the easiest way possible. Here are some examples of what can be done. The fill list of options are in the next section.
 
 ```html
 <script type="text/javascript">
@@ -103,3 +103,6 @@ Every part of the plugin's functionality configurable in the easiest way possibl
 | message.invalid           | That email address is invalid.               | Any text                                             | The message to show if the email address is invalid.
 | message.valid             | That email address is valid.                 | Any text                                             | The message to show if the verification is successful.
 | message.error             | There was a problem validating your email.   | Any text                                             | The message to show if there is an error with the verification service.
+
+[1]: https://api.emailverifyapi.com/GetLicense
+[2]: https://api.emailverifyapi.com
