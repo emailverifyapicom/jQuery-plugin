@@ -2,7 +2,8 @@ Email Verification jQuery-plugin
 ================================
 
 # About
-jQuery Plugin is a generic jQuery library has been constructed to use RESTful email verification services hosted at [api.emailverifyapi.com][2].
+jQuery Plugin is a generic jQuery library has been constructed to use RESTful 
+email verification services hosted at [api.emailverifyapi.com][2].
 
 ## Pre-requisites
 A license for domain authentication is required.
@@ -12,13 +13,13 @@ A license for domain authentication is required.
 The minified version of javascript is available at:
 
 ```
-//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.1.0.0.min.js
+//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.plugin_a.1.0.0.min.js
 ```
 
 The minified version of CSS is available at:
 
 ```
-//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.1.0.0.min.css
+//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.plugin_a.1.0.0.css
 ```
 
 ### Basic Usage
@@ -28,10 +29,10 @@ The minified version of CSS is available at:
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 <!-- include the jQuery plugin file -->
-<script type="text/javascript" src="//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.1.0.0.min.js"></script>
+<script type="text/javascript" src="//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.plugin_a.1.0.0.min.js"></script>
 
 <!-- include optional CSS -->
-<link rel="stylesheet" type="text/css" media="screen" href="//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.1.0.0.min.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.plugin_a.1.0.0.css" />
 
 <!-- setup your email fields to be verified -->
 <script type="text/javascript">
