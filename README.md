@@ -19,7 +19,7 @@ The minified version of javascript is available at:
 The minified version of CSS is available at:
 
 ```
-//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.plugin_a.1.0.0.css
+//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.plugin_a.1.0.0.min.css
 ```
 
 ### Basic Usage
@@ -32,7 +32,7 @@ The minified version of CSS is available at:
 <script type="text/javascript" src="//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.plugin_a.1.0.0.min.js"></script>
 
 <!-- include optional CSS -->
-<link rel="stylesheet" type="text/css" media="screen" href="//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.plugin_a.1.0.0.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="//az631289.vo.msecnd.net/cdn/jquery.emailverifyapi.plugin_a.1.0.0.min.css" />
 
 <!-- setup your email fields to be verified -->
 <script type="text/javascript">
