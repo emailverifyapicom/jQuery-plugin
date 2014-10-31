@@ -190,9 +190,9 @@
                 $.ajax({
                     url: callURL,
                     context: document.body
-                }).done(function(e) {
-                    var t = $.parseJSON(e);
-                    if (t.status == "Ok" || t.status == "Unknown") {
+                }).done(function(data) {
+                    var t = data;
+                    if (t.status.toLowerCase() == "ok" || t.status.toLowerCase() == "unknown") {
                         if (typeof $opts.valid == "function") $opts.valid($(currEle).val());
                         $($opts.resultContainer).html($opts.validResultTemplate.replace("%%MESSAGE%%", $opts.message.valid));
                         $($opts.resultContainer).removeClass("emailChecker_invalid").addClass("emailChecker_valid");
