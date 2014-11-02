@@ -48,7 +48,8 @@ By default the email field will be verified on blur (when it loses focus) and wh
 [Click here to request a license][1].
 
 ### Advanced Usage
-Every part of the plugin's functionality configurable in the easiest way possible. Here are some examples of what can be done. The fill list of options are in the next section.
+Every part of the plugin's functionality configurable in the easiest way possible. Here are some examples of what can be done. 
+The full list of options are in the 'All Options' section below.
 
 ```html
 <script type="text/javascript">
