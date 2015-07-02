@@ -3,7 +3,7 @@ Email Verification jQuery-plugin
 
 # About
 jQuery Plugin is a generic jQuery library has been constructed to use RESTful 
-email verification services from [api.emailverifyapi.com][2].
+email verification services from [email-checker.com][2].
 
 ## Pre-requisites
 A license for domain authentication is required.
