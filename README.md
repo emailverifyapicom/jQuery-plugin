@@ -3,11 +3,10 @@ Email Verification jQuery-plugin
 
 # About
 jQuery Plugin is a generic jQuery library has been constructed to use RESTful 
-email verification services from [email-checker.com][2].
+email verification services from email-checker.com.
 
 ## Pre-requisites
 A license for domain authentication is required.
-[Click here to request a license][1]
 
 ## Installation
 The minified version of JavaScript is available at:
@@ -45,7 +44,6 @@ The minified version of CSS is available at:
 By default the email field will be verified on blur (when it loses focus) and when it's form is submitted. The verification results will appear to the right of the field by default and will use our default styling.
 
 **Note:** A valid domain ACL / license is required in emailverifyapi.com for client side script to work.
-[Click here to request a license][1].
 
 ### Advanced Usage
 Every part of the plugin's functionality configurable in the easiest way possible. Here are some examples of what can be done. 
@@ -105,6 +103,3 @@ The full list of options are in the 'All Options' section below.
 | message.invalid           | That email address is invalid.               | Any text                                             | The message to show if the email address is invalid.
 | message.valid             | That email address is valid.                 | Any text                                             | The message to show if the verification is successful.
 | message.error             | There was a problem validating your email.   | Any text                                             | The message to show if there is an error with the verification service.
-
-[1]: https://www.email-checker.com/email-checker-api/#trial_key
-[2]: https://www.email-checker.com
